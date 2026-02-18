@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Lecture01.FirstAppConsoleWebServer/Lecture01.FirstAppConsoleWebServer.csproj" />
+  <Project Path="Lecture01.FirstAspNetCoreApp/Lecture01.FirstAspNetCoreApp.csproj" />
+  <Project Path="Lecture02.HttpMethodTypes/Lecture02.HttpMethodTypes.csproj" Id="4b7a14cd-a32c-43ad-8753-b59677efc6e1" />
+  <Project Path="Lecture03.FirstApiApplication/Lecture03.FirstApiApplication.csproj" />
+</Solution>
