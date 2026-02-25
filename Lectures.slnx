@@ -3,4 +3,7 @@
   <Project Path="Lecture01.FirstAspNetCoreApp/Lecture01.FirstAspNetCoreApp.csproj" />
   <Project Path="Lecture02.HttpMethodTypes/Lecture02.HttpMethodTypes.csproj" Id="4b7a14cd-a32c-43ad-8753-b59677efc6e1" />
   <Project Path="Lecture03.FirstApiApplication/Lecture03.FirstApiApplication.csproj" />
+  <Project Path="Lecture04.DI.UnitTests/Lecture04.DI.UnitTests.csproj" Id="df9a0bdb-f01a-4ad6-9f9b-aa41f9ec1a83" />
+  <Project Path="Lecture04.DI/Lecture04.DI.csproj" Id="000d675a-c7b5-4ee3-9cba-22de153b7a7a" />
+  <Project Path="Lecture05.Middlewares/Lecture05.Middlewares.csproj" />
 </Solution>
