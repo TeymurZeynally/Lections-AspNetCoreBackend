@@ -6,4 +6,5 @@
   <Project Path="Lecture04.DI.UnitTests/Lecture04.DI.UnitTests.csproj" Id="df9a0bdb-f01a-4ad6-9f9b-aa41f9ec1a83" />
   <Project Path="Lecture04.DI/Lecture04.DI.csproj" Id="000d675a-c7b5-4ee3-9cba-22de153b7a7a" />
   <Project Path="Lecture05.Middlewares/Lecture05.Middlewares.csproj" />
+  <Project Path="Lecture05.StaticFiles/Lecture05.StaticFiles.csproj" Id="cc8f5432-2d85-4086-8f1f-9475181bca0f" />
 </Solution>
