@@ -11,9 +11,9 @@ namespace Lecture05.Middlewares.Middlewares
         {
             someDependency.DoSomething();
 
-            Interlocked.Increment(ref _requestCount);
+            var requestCount = Interlocked.Increment(ref _requestCount);
 
-            if (_requestCount % 5 == 0)
+            if (requestCount % 5 == 0)
             {
                 context.Response.StatusCode = StatusCodes.Status302Found;
                 context.Response.Headers.Location = RickRollUrl;
