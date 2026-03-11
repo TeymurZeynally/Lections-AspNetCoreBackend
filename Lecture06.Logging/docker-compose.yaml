@@ -1,0 +1,34 @@
+services:
+  loki:
+    image: grafana/loki:3.5.5
+    container_name: loki
+    command: -config.file=/etc/loki/local-config.yaml
+    ports:
+      - "3100:3100"
+    volumes:
+      - loki-data:/loki
+    networks:
+      - grafana-loki
+
+  grafana:
+    image: grafana/grafana:12.1.1
+    container_name: grafana
+    depends_on:
+      - loki
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana-data:/var/lib/grafana
+    networks:
+      - grafana-loki
+
+volumes:
+  loki-data:
+  grafana-data:
+
+networks:
+  grafana-loki:
+    driver: bridge

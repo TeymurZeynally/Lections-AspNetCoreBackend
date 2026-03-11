@@ -7,4 +7,6 @@
   <Project Path="Lecture04.DI/Lecture04.DI.csproj" Id="000d675a-c7b5-4ee3-9cba-22de153b7a7a" />
   <Project Path="Lecture05.Middlewares/Lecture05.Middlewares.csproj" />
   <Project Path="Lecture05.StaticFiles/Lecture05.StaticFiles.csproj" Id="cc8f5432-2d85-4086-8f1f-9475181bca0f" />
+  <Project Path="Lecture06.Configuration/Lecture06.Configuration.csproj" Id="9a50967b-9793-473e-a183-bfb3c7392b7a" />
+  <Project Path="Lecture06.Logging/Lecture06.Logging.csproj" Id="8c60a89d-66ba-4811-96bc-82d15ded6bd5" />
 </Solution>

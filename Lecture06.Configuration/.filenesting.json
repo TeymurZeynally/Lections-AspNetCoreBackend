@@ -1,0 +1,13 @@
+{
+    "dependentFileProviders": {
+        "add": {
+            "fileToFile": {
+                "add": {
+                    "appsettings.Development.yaml": [ "appsettings.yaml" ],
+                    "appsettings.Production.yaml": [ "appsettings.yaml" ],
+                    "appsettings.Staging.yaml": [ "appsettings.yaml" ]
+                }
+            }
+        }
+    }
+}
